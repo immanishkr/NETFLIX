@@ -133,12 +133,12 @@
     left: -2px;
     right: -2px;
     bottom: -2px;
-    border-radius: inherit; /* Inherit the border radius from the container */
+    border-radius: inherit; 
     background: linear-gradient(
       to bottom left,
       rgb(255, 255, 255),
       rgb(0, 0, 0)
-    ); /* Black-to-white gradient */
+    );
     z-index: -1;
   }
   .bg2 img {
@@ -208,7 +208,7 @@
   
   .start button {
     position: absolute;
-    /* display: flex; */
+   
     top: 40rem;
     left: 123vh;
     font-size: 1.25rem;
@@ -324,21 +324,7 @@
 
   }
 
-  /* .wrapper .box9 li {
-    width: 200px;
-    background-color: aliceblue;
-    border-radius: 50px;
-    color: #000;
-    margin-left: 150px;
-  }
-  .box9 li {
-    list-style: none;
-    text-align: center;
-    display: inline-block;
-    padding: 20px;
-    
-    
-  } */
+  
  
   .button-style {
     display: flex;
